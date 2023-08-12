@@ -4,8 +4,10 @@ Free Games app retrieves all the games available to play for free.
 You can add to and remove from the favorites list stored in the localStorage.
 You can filter out the games that are retrieved from the API by selecting from the 3 dropdown selections (Category, SortBy and Platform).
 
-Used Bootstrap for some styling as well and Styled Components. Implimented Add to Favorites/Remove from Favorites overlay over each card returned. Added a Header for links to other pages using React Router.
+Using Bootstrap for some styling as well and Styled Components. Implimented Add to Favorites/Remove from Favorites overlay over each card returned. 
 
+## IN-PROGRESS
+Wil add a Header for links to other pages using React Router.
 Adding a GameDetails Modal to be displayed when user clicks on a game.
 
 
@@ -33,11 +35,11 @@ Link to [Bootstrap] (https://getbootstrap.com/)
 Link to storing [.env] (https://devzibah.hashnode.dev/using-a-dotenv-file-to-store-and-use-api-keys-in-a-vite-built-react-app)
 
 
-### Modal
+### Modal (In-Progress)
 Link to [Modal Youtube How to Resources] (https://www.youtube.com/watch?v=9DwGahSqcEc)
 
 
-### React Router
+### React Router (In-Progress)
 Router (OPTIONAL)
 Router to route to different pages (endpoints)
 - Main page (All Games List)
@@ -50,4 +52,4 @@ Router to route to different pages (endpoints)
 
 Link to [GitHub] (https://github.com/lchen104/free-games)
 
-Link to [Netifly] (https://coruscating-elf-a5c3b2.netlify.app/)
+Link to [Netifly] (https://extraordinary-lily-7a3d63.netlify.app/)
