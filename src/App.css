@@ -1,0 +1,7 @@
+body {
+    /* background-color: #141414; */
+    background-image: url('./images/main-bg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #141414;
+}
