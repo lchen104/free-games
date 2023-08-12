@@ -30,6 +30,12 @@ npm install bootstrap
 ```
 Link to [Bootstrap] (https://getbootstrap.com/)
 
+
+```
+npm install -s react-router-bootstrap
+```
+
+
 ### Store API Key in .env file
 .env to store RapidAPI Key
 Link to storing [.env] (https://devzibah.hashnode.dev/using-a-dotenv-file-to-store-and-use-api-keys-in-a-vite-built-react-app)

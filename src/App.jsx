@@ -20,6 +20,18 @@ import './App.css'
 import AddFavorites from './components/AddFavorites'
 import RemoveFavorites from './components/RemoveFavorites'
 
+
+
+import { Route, Routes } from 'react-router-dom'
+import Main from './pages/Main'
+import Favorites from './pages/Favorites'
+import Games from './pages/Games'
+import Contact from './pages/Contact'
+import Nav from './components/Nav'
+import About from './pages/About';
+
+
+
 const  App = () => {
 
   const [platform, setPlatform] = useState()
@@ -175,9 +187,20 @@ const  App = () => {
   return (
     <div className='container'>
 
-      <StyledHeader>
+      {/* <StyledHeader>
         <Header />
-      </StyledHeader>
+      </StyledHeader> */}
+
+      
+      <Nav />
+        <Routes>
+          <Route path='/' element={<Main />} />
+          <Route path='/favorites' element={<Favorites />} />
+          <Route path='/games' element={<Games />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
+
      
       <Form 
         handlePlatform={handlePlatform}
